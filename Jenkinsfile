@@ -7,7 +7,7 @@ pipeline {
     
     }
 
-    // stages {
+   stages {
     //     stage('Checkout') {
     //         steps {
     //             git credentialsId: "${GIT_CREDENTIALS}", url: 'https://github.com/your-username/your-repo.git', branch: 'master'
@@ -43,4 +43,4 @@ pipeline {
             }
         }
     }
-
+}
